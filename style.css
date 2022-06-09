@@ -16,18 +16,18 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   scroll-behavior: smooth;
 }
 
 .header__container {
-  background-color: #081A26;
+  background-color: #9C9290;
 }
 
 
 .footer__container {
-  background-color: #081A26;
-  color: #fff;
+  background-color: #9C9290;
+  color: #32312D;
 }
 
 .container {
@@ -37,29 +37,32 @@ html {
 
 .nav-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  padding-left: 0;
   list-style: none;
   margin: 0;
   padding: 20px 0;
 }
 
 .nav-link {
+  font-size: 24px;
+  font-weight: 700;
   text-decoration: none;
   line-height: 50px;
-  color: #fff;
-  transition: color 0.5s;
+  color: #32312D;
+  transition: color 0.3s;
 }
 
 .nav-link:hover {
-  color: #E9C6A8;
+  color: #F0F4FC;
 }
 
 .main__container {
   display: flex;
   flex-wrap: wrap;
-  
+  background-color: #C9CFCF;
+  color: #32312D;
 }
 
 .section {
